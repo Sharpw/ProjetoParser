@@ -1,0 +1,45 @@
+	//////////////////////////////////////////////
+	//					    //
+	//					    //
+	//	  Instalação e utilização	    //
+	//		do programa		    //
+	//					    //
+	//					    //
+	//////////////////////////////////////////////
+
+
+    1 - Utilizar uma IDE com a variável de ambiente Java instalada na máquina
+
+    	Nesse exemplo estaremos usando a IDE Eclipse
+
+    2 - Criar um Workspace dentro da pasta de instalação do Antlr4.
+
+    3 - Utilizar a pasta do projeto Java dentro do Workspace do Eclipse
+
+    4 - Criar uma Build Path para o Antlr4
+
+		No Eclipse IDE:
+			
+			• Botão direito na pasta "ProjetoAntlr"
+			• 'Build Path > Configure Build Path'
+			• Na aba 'Libraries', selecione 'Modulepath' e clique em "Add External JARs"
+			• Selecione o arquivo 'Antlr4.jar' e 'Abrir'
+			• 'Apply and Close'
+
+    5 - Rodar o código a partir do MainClass.java
+
+
+	//////////////////////////////////////////////
+	//					    //
+	//					    //
+	//	      Especificações do	  	    //
+	//		 compilador		    //
+	//					    //
+	//					    //
+	//////////////////////////////////////////////
+
+
+	O compilador foi criado com o propósito de cobrir o básico da linguagem C de programação,
+	portanto, ele está limitado a apenas compilação de funções básicas como declaração de variáveis, 
+	funções do tipo if, else, for, while, bool, printf, scanf e atribuição de valores à essas variáveis.
+

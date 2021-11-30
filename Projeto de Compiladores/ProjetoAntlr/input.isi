@@ -1,0 +1,53 @@
+int main(){
+
+	/* isso e um comentario */
+	
+	/* arquivo isi para testar os codigos da gramatica */
+	
+	int numeroFrutas, quantidadeDeAbacaxi;
+	float precoDoAbacaxi;
+	double num, num2;
+	char nome[200];
+
+	precoDoAbacaxi = 8.53;
+	numeroFrutas = 50;
+	num = 3.2525;
+	num2 = 2;
+	
+	
+	
+	nome = 'lauro1';
+	
+	if (num < 3){
+		printf(num);
+	} else {
+		printf(num2);
+	};
+	
+	bool num = true;
+	bool num2 = false;
+
+	scanf(num);
+	printf(num2);
+	
+	for(int i = 2; i<3; i++){
+		for (i = 2; i<3; i++){
+			scanf(num);
+		} return 0;
+	};
+	
+	while(precoDoAbacaxi > 6){
+		precoDoAbacaxi--;
+	};
+	
+	int mercadoCalculadora(num2, num, precoDoAbacaxi){
+	
+		if(precoDoAbacaxi < numeroFrutas){
+			printf(precoDoAbacaxi);
+			precoDoAbacaxi--;
+		};
+	
+	};
+	
+	
+}
